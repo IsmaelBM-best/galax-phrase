@@ -1,0 +1,137 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+section img {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+section h1 {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    z-index: 20;
+    padding-left: 41%;
+    padding-top: 5%;
+}
+section .contenedor__info {
+    border-radius: 20px;
+    border: solid 2px blueviolet;
+    box-shadow: 0 10px 50px 10px blueviolet;
+    color: white;
+    position: absolute;
+    z-index: 30;
+    top: 25%;
+    width: 300px;
+    heigth: ;
+    background-color: rgba(255,255,255,0.7);
+    left: 40%;
+}
+section .contenedor__info p {
+    font-size: 20px;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+button {
+    background: transparent;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    z-index: 30;
+    left: 50%;
+    top: 80%;
+    font-size: 30px;
+    cursor: pointer;
+    color:white;
+    aling-items: center;
+    transition: 1s ease;
+}
+button:hover {
+    color: orange;
+    font-size: 32px;
+    transform: rotate(300deg);
+}
+
+@media (max-width: 1200px) {
+section h1 {
+    padding-left: 41%;
+}
+section .contenedor__info {
+    left: 40%;
+}
+button {
+    left: 50%;
+}
+}
+
+@media (max-width: 992px) {
+section h1 {
+    padding-left: 38%;
+}
+section .contenedor__info {
+    left: 37%;
+}
+button {
+    left: 50%;
+}
+}
+
+@media (max-width: 768px) {
+    section h1 {
+        padding-left: 33%;
+    }
+    section .contenedor__info {
+        left: 32%;
+    }
+    button {
+        left: 48%;
+    }
+}
+
+@media (max-width: 600px) {
+    section h1 {
+        padding-left: 25%;
+    }
+    section .contenedor__info {
+        left: 24%;
+    }
+    button {
+        left: 45%;
+    }
+}
+@media (max-width: 390px) {
+    section h1 {
+        font-size: 30px;
+        padding-left: 25%;
+        padding-top: 20%;
+    }
+    section .contenedor__info {
+        left: 13%;
+    }
+    button {
+        left: 45%;
+    }
+}
+@media (max-width: 350px) {
+    section h1 {
+        font-size: 25px;
+        padding-left: 25%;
+        padding-top: 20%;
+    }
+    section .contenedor__info {
+        left: 6%;
+    }
+    button {
+        left: 45%;
+    }
+}
+    
+   
